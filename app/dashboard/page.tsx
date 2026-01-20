@@ -26,7 +26,7 @@ const Dashboard = async () => {
             <h1 className="text-4xl font-bold bg-gradient-to-r from-brand-orange to-brand-light bg-clip-text text-transparent">
               Dashboard
             </h1>
-            <p className="text-gray-400 mt-2">Welcome back, {session.user.name}</p>
+             <p className="text-gray-400 mt-2">Welcome back, {session.user.name}</p>
           </div>
           <div className="mt-4 md:mt-0">
             <Logout />
